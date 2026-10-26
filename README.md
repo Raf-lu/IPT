@@ -37,10 +37,10 @@ Meine Antwort: Erlich keine Achnung
 Commit · Issue · Pull Request · Branch
 
 Meine Antwort:
-1. Issue
-2. Branch
-3. Commit
-4. Pull Request
+ - 1. Issue
+ - 2. Branch
+ - 3. Commit
+ - 4. Pull Request
 
 
 10. Was ist ein Issue?
@@ -71,137 +71,160 @@ Meine Antwort: Wenn die Änderungen getested und erfolgreich werden
 
 ## 3 · Wichtige Git-Begriffe und Befehle
 19. Was bedeutet Push?
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: Übertragt lokalen Commits in Repo
 
 20. Was bedeutet Pull?
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: Holt Änderungen aus Repo und übertragt sie in lokalen Branch
 
 21. Was ist der Unterschied zwischen Commit und Push?
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: Commit speichert Änderungen, Push übertragt sie zu Repo
 
 22. Was ist der Unterschied zwischen Pull und Pull Request?
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: pull holt Änderungen in lokales Repo, Pull Request ist ein Antrag
 
 23. Was bedeutet Clone?
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: Eine kopie von Repo machen
 
 24. Was macht git status?
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: Zeigt den Status der Dateien und ihre Änderungen
 
 25. Was macht git add?
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: fügt Änderungen zur Staging Area hinzu
 
 26. Was ist die Staging Area?
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: Wo ich Änderungen für den nächsten Commit auswähle
 
 27. Was macht git log?
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: Zeight die bisherigen Commits unf ihre infos
 
 28. Was bedeutet Branch wechseln?
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: wechsel zu enem anderen Entwicklungszweig
 
 29. Speichert git add bereits eine neue Version?
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: Nein
 
 30. Speichert git push deine noch nicht committeten Dateiänderungen?
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: Nein
 
 ## 4 · GitHub-Flow praktisch erklären
 31. Erkläre den GitHub-Flow in einem kurzen Satz.
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: Ich erstelle ein Issue, arbeite auf einem Branch, committe meine Änderungen, öffne einen Pull Request und führe die geprüften Änderungen zusammen
 
 32. Ordne die Begriffe zu
 Bedeutung	Git-/GitHub-Begriff
-Aufgabe	DEINE ANTWORT
-Arbeitszweig	DEINE ANTWORT
-Speicherpunkt	DEINE ANTWORT
-Änderungsantrag	DEINE ANTWORT
-Zusammenführen	DEINE ANTWORT
+Aufgabe:	Issue
+Arbeitszweig: Branch
+Speicherpunkt: Commit
+Änderungsantrag: Pull Request
+Zusammenführen: Merge
+
 33. Welche Richtung beschreibt Push?
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: Vom lokalen Repo zum entfernten Repo
 
 34. Welche Richtung beschreibt Pull?
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: Vom entfernten Repo zum lokalen Repo
 
 35. Warum sind mehrere sinnvolle Commits oft besser als ein einziger riesiger Commit?
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: Kleinere Commits sinfd einfacher zu verstehen
 
 36. Nenne ein Beispiel für eine gute Commit-Nachricht.
-DEINE COMMIT-NACHRICHT
+docs: GitHub-Flow und Markdown erklärt
+
 37. Warum ist die Commit-Nachricht update wenig hilfreich?
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: Sie sagen nicht genau was geändert wurde
 
 ## 5 · Markdown und README
 38. Überschrift Ebene 1
 Ergänze darunter eine Markdown-Überschrift der Ebene 1:
 
-DEINE ANTWORT
+# Meine Lernsession 
 
 39. Ungeordnete Liste
 Erstelle eine Liste mit mindestens drei Begriffen aus dieser Lernsession:
 
-DEINE ANTWORT
+- Git
+- GitHub
+- Branch
+- Commit
+- Pull Request
 
 40. Link
 Erstelle einen funktionierenden Markdown-Link zu GitHub oder Microsoft Learn:
 
-DEINE ANTWORT
+[GitHub öffnen](https://github.com/)
 
 41. Bild
 Schreibe die Markdown-Syntax für ein Bild mit Alternativtext:
 
-DEINE ANTWORT
+<img width="200" height="250" alt="🦴Typh🦴 (@crispytyph) _ X" src="https://github.com/user-attachments/assets/98d34089-45b1-40ea-b71b-6f20f3bbec70" />
+
 42. Inline-Code
 Schreibe git status als Inline-Code in einem sinnvollen Satz:
 
-DEINE ANTWORT
+Mit git status kontrolliere ich, welche Änderungen noch nicht committet sind
 
 43. Codeblock
 Ergänze mindestens drei Git-Befehle in diesem Codeblock:
-
-# DEINE BEFEHLE
+```
+git status
+git add README.md
+git commit -m "docs: README ergänzt"
+git push
+```
 44. Was sollte ein gutes Portfolio-README mindestens leisten?
-Meine Antwort: DEINE ANTWORT
+Meine Antwort: Es sollte das Projekt erklären, die wichtigsten Funktionen zeigen, die verwendeten Technologien nennen und beschreiben, wie man es startet oder verwendet
 
 ## 6 · Mein fachlicher Lernnachweis
 Was habe ich heute über Git und GitHub gelernt?
-DEINE ANTWORT
+Ich habe gelernt, wie Git und GitHub funktionieren und wie ich mit Branches, Commits und Pull Requests Änderungen verwalte
 
 Was habe ich heute praktisch umgesetzt?
-DEINE ANTWORT
+Ich habe gelernt, wie Git und GitHub funktionieren und wie ich mit Branches, Commits und Pull Requests Änderungen verwalte
 
 Meine konkrete Verbesserung aus dem Selbst- oder Peer-Check
-DEINE ANTWORT
+Ich habe meine Überschriften und Listen übersichtlicher gestaltet und meine Commit-Nachricht genauer formuliert
 
 Mein nächster Portfolio-Schritt
-DEINE ANTWORT
+Ich möchte mein GitHub-Profil verbessern und ein eigenes Projekt mit einem verständlichen README veröffentlichen
 
 ## 7 · Microsoft Learn · Abschlusskontrolle
- Einführung in GitHub: Übung, Modulbewertung und Zusammenfassung abgeschlossen
- Effektive Kommunikation auf GitHub mithilfe von Markdown abgeschlossen
- Ich habe meinen Lernfortschritt / meine Modulbewertung kontrolliert.
+ - [ ] Einführung in GitHub: Übung, Modulbewertung und Zusammenfassung abgeschlossen
+ - [ ] Effektive Kommunikation auf GitHub mithilfe von Markdown abgeschlossen
+ - [ ] Ich habe meinen Lernfortschritt / meine Modulbewertung kontrolliert.
 ## 8 · Begriffe · deutsche Merkhilfe
 Fülle die zweite Spalte mit einer kurzen deutschen Merkhilfe aus.
 
-Begriff	Deutsche Merkhilfe
-Issue	DEINE ANTWORT
-Branch	DEINE ANTWORT
-Commit	DEINE ANTWORT
-Push	DEINE ANTWORT
-Pull	DEINE ANTWORT
-Pull Request	DEINE ANTWORT
-Review	DEINE ANTWORT
-Merge	DEINE ANTWORT
-Clone	DEINE ANTWORT
-Repository	DEINE ANTWORT
+Begriff:	Deutsche Merkhilfe 
+
+Issue:	Fehlerbeschreibung
+
+Branch:	Eigener Entwicklungszweig
+
+Commit:	Gespeicherter Änderungspunkt
+
+Push:	Commits zu GitHub übertragen
+
+Pull:	Änderungen von GitHub holen
+
+Pull Request:	Übernahme von Änderungen
+
+Review:	Änderungen überprüfen
+
+Merge:	Änderungen zusammenführen
+
+Clone: Repo lokal kopieren
+
+Repository:	Projektordner mit Versionsgeschichte
+
 ## 9 · Selbstcheck
- Ich kann Git und GitHub unterscheiden.
- Ich kann Issue → Branch → Commit → Pull Request → Merge erklären.
- Ich kenne den Unterschied zwischen Commit und Push.
- Ich kenne den Unterschied zwischen Pull und Pull Request.
- Ich kann Überschriften, Listen, Links, Bilder und Codeblöcke in Markdown verwenden.
- Mein README wird auf GitHub korrekt gerendert.
- Ich habe mindestens eine konkrete Verbesserung umgesetzt.
- Ich habe meine Änderung mit einer aussagekräftigen Commit-Nachricht dokumentiert.
+ - [ ] Ich kann Git und GitHub unterscheiden.
+ - [ ] Ich kann Issue → Branch → Commit → Pull Request → Merge erklären.
+ - [ ] Ich kenne den Unterschied zwischen Commit und Push.
+ - [ ] Ich kenne den Unterschied zwischen Pull und Pull Request.
+ - [ ] Ich kann Überschriften, Listen, Links, Bilder und Codeblöcke in Markdown verwenden.
+ - [ ] Mein README wird auf GitHub korrekt gerendert.
+ - [ ] Ich habe mindestens eine konkrete Verbesserung umgesetzt.
+ - [ ] Ich habe meine Änderung mit einer aussagekräftigen Commit-Nachricht dokumentiert.
+       
 Meine Commit-Nachricht für diese Abgabe
-DEINE COMMIT-NACHRICHT
+docs: Lernsession 03 zu GitHub-Flow und Markdown ausgefüllt
