@@ -118,3 +118,25 @@ C# war am Anfang nicht ganz einfach. Vor allem die verschiedenen Befehle und Dat
 Ich habe gelernt, wie man einen einfachen Ablauf in C# umsetzt. Ausserdem weiss ich jetzt, dass man Programme testen muss, damit man sieht, ob alles richtig funktioniert.
 
 ---
+## Lerneinheit 6 – Die Mensa-Kasse lernt entscheiden
+**Datum:** 09.11.2026
+
+In dieser Lerneinheit haben wir unser Programm aus LS5 erweitert. Bisher konnte unsere Mensa-Kasse nur den Gesamtpreis berechnen. In LS6 haben wir gelernt, wie man mit Bedingungen verschiedene Entscheidungen in einem Programm umsetzen kann.
+
+Wir haben zuerst eine Entscheidungstabelle erstellt. Darin haben wir festgelegt, wie viel Rabatt es je nach Menge gibt. Bei 1 bis 2 Stück gibt es keinen Rabatt, bei 3 bis 4 Stück gibt es 10 % Rabatt und ab 5 Stück gibt es 20 % Rabatt.
+
+Danach haben wir mit C# gearbeitet und die Befehle `if`, `else if` und `else` kennengelernt. Damit kann das Programm entscheiden, welcher Rabatt angewendet werden soll. Anschliessend haben wir den Rabattbetrag und den Endpreis berechnet.
+
+Wir haben unser Programm mit verschiedenen Mengen getestet. Dabei haben wir überprüft, ob die Preise und Rabatte richtig berechnet werden. Ausserdem haben wir eine ungültige Eingabe getestet. Wenn die Menge kleiner als 1 ist, zeigt das Programm eine Fehlermeldung an und wird mit `return;` beendet.
+
+**Was ist mir gut gelungen?**
+
+Ich konnte die Rabattregeln verstehen und in C# umsetzen. Auch die verschiedenen Tests haben gut funktioniert. Ich habe verstanden, wie man mit Bedingungen Entscheidungen im Programm macht.
+
+**Was war schwierig?**
+
+Am Anfang war es etwas schwierig zu verstehen, welche Bedingung bei welcher Menge zutrifft. Auch die Berechnung des Rabattbetrags musste ich zuerst verstehen. Durch die Beispiele und Tests wurde es aber einfacher.
+
+**Was nehme ich mit?**
+
+Ich habe gelernt, wie man mit `if`, `else if` und `else` Entscheidungen in C# programmiert. Ausserdem weiss ich jetzt, wie man Eingaben überprüft und wie ein Programm auf ungültige Werte reagieren kann. Ich habe auch gelernt, dass man ein Programm mit verschiedenen Fällen testen muss, damit es zuverlässig funktioniert.
